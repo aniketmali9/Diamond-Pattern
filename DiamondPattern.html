@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diamond Pattern</title>
+</head>
+<body>
+    <h2>Diamond Pattern With Javascript</h2>
+    <script>
+        for(let i=0; i < 5; i++){
+            let str = "";
+            for(let j = 5; j > i; j--){
+                str += " ";
+            }
+            for(let k = 0; k <= i; k++){
+                str += "*";
+            }
+            for(let l = 1; l<=i; l++){
+                str += "*";
+            }
+            console.log(str);
+        }
+        for(let i=5; i >= 0; i--){
+            let str = "";
+            for(let j = 5; j > i; j--){
+                str += " ";
+            }
+            for(let k = 0; k <= i; k++){
+                str += "*";
+            }
+            for(let l = 1; l<=i; l++){
+                str += "*";
+            }
+            console.log(str);
+        }
+    </script>    
+</body>
+</html>
